@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Fundamentos">
+      <UniqueIdentifier>{5163c60e-a17b-4e12-9865-5926ecdd3560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fundamentos\Cap01_EstructuraGeneralArchivo">
+      <UniqueIdentifier>{44d4c066-744e-41fd-8e5f-9964d8b97fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fundamentos\Cap02_TiposDeDatos">
+      <UniqueIdentifier>{1e061341-1489-4af6-95f7-a9b6298dfe5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fundamentos\Cap03_OperadoresAndExpresiones">
+      <UniqueIdentifier>{7aaa794c-4cba-4cb0-924d-d3ef523939fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="EstructuraGeneralArchivo.c">
+      <Filter>Source Files\Fundamentos\Cap01_EstructuraGeneralArchivo</Filter>
+    </ClCompile>
+    <ClCompile Include="Numericos.c">
+      <Filter>Source Files\Fundamentos\Cap02_TiposDeDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="CharAndString.c">
+      <Filter>Source Files\Fundamentos\Cap02_TiposDeDatos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fundamentos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
