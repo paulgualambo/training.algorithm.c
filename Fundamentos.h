@@ -6,3 +6,6 @@ int EstructuraGeneralArchivos(int i, float f, char name[], int* puntero);
 //Cap02_TiposDeDatos
 int Numericos();
 int CharAndString();
+
+//Cap04_EstructurasDeControl
+int Condicionales();

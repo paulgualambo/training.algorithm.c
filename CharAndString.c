@@ -1,5 +1,6 @@
 #include<stdio.h> 
-#include<string.h> 
+#include<string.h>
+
 //https://www.javatpoint.com/c-string-functions
 void pintarLasLetras(char* c);
 

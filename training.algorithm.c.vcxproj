@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{4828cacf-1256-4f50-8727-5f288aa8ea90}</ProjectGuid>
-    <RootNamespace>paullearningalgoritmosc</RootNamespace>
+    <RootNamespace>trainingalgorithmc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CharAndString.c" />
+    <ClCompile Include="Condicionales.c" />
     <ClCompile Include="EstructuraGeneralArchivo.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Numericos.c" />

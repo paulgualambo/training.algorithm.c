@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Fundamentos\Cap03_OperadoresAndExpresiones">
       <UniqueIdentifier>{7aaa794c-4cba-4cb0-924d-d3ef523939fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Fundamentos\Cap04_EstructurasDeControl">
+      <UniqueIdentifier>{b72587c1-f555-437f-b834-b022456e23e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
@@ -36,6 +39,9 @@
     </ClCompile>
     <ClCompile Include="CharAndString.c">
       <Filter>Source Files\Fundamentos\Cap02_TiposDeDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="Condicionales.c">
+      <Filter>Source Files\Fundamentos\Cap04_EstructurasDeControl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
